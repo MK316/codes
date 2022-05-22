@@ -23,7 +23,7 @@ file.close()
 ```
 
 
-## Image link on Colab
+## Github image link on Colab
 
 1. Go to Github
 2. Go to your Image
