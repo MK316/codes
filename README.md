@@ -28,5 +28,5 @@ file.close()
 1. Go to Github
 2. Go to your Image
 3. Copy the URL
-4. Convert the URL in two steps: a. Change: /github.com/ to **raw.githubusercontent.com** b. **Remove "/blob/"** from the URL
+4. Convert the URL in two steps: a. Change: /github.com/ to **_raw.githubusercontent.com_** b. **_Remove "/blob/"_** from the URL
 5. Now in Colab's Text paste the edited URL inside the format: You will get an image displayed.
