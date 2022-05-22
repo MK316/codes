@@ -2,7 +2,7 @@
 
 ## 🎯 [Using Github files on Colab (copy to Colab)](https://github.com/MK316/codes/blob/main/Files_from_Github_to_Colab.ipynb)
 
-```
+```ruby
 # copy a file from github
 import os
 url = "https://raw.githubusercontent.com/Youraccountname/repositoryname/main/foldername/filename.txt"
