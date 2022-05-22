@@ -1,6 +1,6 @@
 # codes lists and references
 
-## [Using Github files on Colab (copy to Colab)](https://github.com/MK316/codes/blob/main/Files_from_Github_to_Colab.ipynb)
+## 🎯 [Using Github files on Colab (copy to Colab)](https://github.com/MK316/codes/blob/main/Files_from_Github_to_Colab.ipynb)
 
 ```
 # copy a file from github
@@ -23,7 +23,7 @@ file.close()
 ```
 
 
-## Github image link on Colab
+## 🎯 Github image link on Colab
 
 1. Go to Github
 2. Go to your Image
