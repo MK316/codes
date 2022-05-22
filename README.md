@@ -8,14 +8,14 @@ import os
 url = "https://raw.githubusercontent.com/Youraccountname/repositoryname/main/foldername/filename.txt"
 os.system("curl " + url + " > filename.txt")
 ```
-```
+```ruby
 # read a text file in the server
 file = open("filename.txt")
 text = file.read().replace("\n", " ")
 file.close()
 ```
 
-```
+```ruby
 # write out a text file
 file = open("filenametosave.txt", "w")
 file.write(text)
