@@ -13,3 +13,14 @@ display(video)
 from IPython.display import Audio
 Audio(url="https://github.com/MK316/workshops/raw/main/data/sc_sample.wav")
 ```
+
+- Image display in colab
+
+```
+import requests
+from io import BytesIO
+from PIL import Image
+url = 'https://github.com/MK316/workshops/raw/main/data/img1.png'
+page = requests.get(url)
+Image.open(BytesIO(page.content))
+```
