@@ -36,3 +36,9 @@ passcode = "".join(random.sample(possible_characters, 8))
 
 print(passcode)
 ```
+
+- Access dic data key
+```
+first_key = list(uploaded)[0]
+first_val = list(uploaded.values())[0]
+```
