@@ -24,3 +24,15 @@ url = 'https://github.com/MK316/workshops/raw/main/data/img1.png'
 page = requests.get(url)
 Image.open(BytesIO(page.content))
 ```
+
+- Generating Unique Random passcodes
+- 
+```
+import random
+
+# Generate a random 8-character passcode
+possible_characters = "ABCDEFGHJKLMNPQRSTUVWXYZ0123456789"
+passcode = "".join(random.sample(possible_characters, 8))
+
+print(passcode)
+```
