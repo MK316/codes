@@ -26,7 +26,7 @@ Image.open(BytesIO(page.content))
 ```
 
 - Generating Unique Random passcodes
-- 
+
 ```
 import random
 
