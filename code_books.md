@@ -42,3 +42,13 @@ print(passcode)
 first_key = list(uploaded)[0]
 first_val = list(uploaded.values())[0]
 ```
+
+- Change file name on colab
+
+```
+import os
+filename = "ES" + str(sn+1)+".wav"
+old_name = r"/content/E-audio.wav"
+new_name = filename
+os.rename(old_name, new_name)
+```
