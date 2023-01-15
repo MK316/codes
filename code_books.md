@@ -52,3 +52,10 @@ old_name = r"/content/E-audio.wav"
 new_name = filename
 os.rename(old_name, new_name)
 ```
+
+- Getting index of row matching to condition
+
+```
+a = d1.index[d1['Passcode']== '202213G6'].tolist()
+a[0]
+```
